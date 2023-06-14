@@ -2,7 +2,7 @@
 	"name": "jodit",
 	"version": "4.0.0-beta.61",
 	"description": "Jodit is awesome and usefully wysiwyg editor with filebrowser",
-	"main": "esm/index.js",
+	"main": "es2018/jodit.fat.min",
 	"types": "types/index.d.ts",
 	"config": {
 		"excludePlugins": "",
