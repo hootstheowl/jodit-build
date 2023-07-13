@@ -2,11 +2,11 @@
 	"name": "jodit",
 	"version": "4.0.0-beta.61",
 	"description": "Jodit is awesome and usefully wysiwyg editor with filebrowser",
-	"main": "es2018/jodit.fat.min",
+	"main": "esm/index.js",
 	"types": "types/index.d.ts",
 	"config": {
 		"excludePlugins": "",
-		"includePlugins": "wrap-nodes,hotkeys,source,format-block,link,bold,image,resizer,color,clean-html,iframe,backspace,redo-undo,size,hr,indent,table,select-cells,table-keyboard-navigation,ordered-list,justify,",
+		"includePlugins": "wrap-nodes,hotkeys,source,format-block,link,bold,image,resizer,color,clean-html,iframe,backspace,redo-undo,size,hr,indent,table,select-cells,table-keyboard-navigation,ordered-list,justify,placeholder",
 		"excludeLanguages": "",
 		"includeLanguages": "en,",
 		"ecma": "es2018"
