@@ -3864,6 +3864,24 @@ a + .jodit-filebrowser-tree__source-title {
  * Released under MIT see LICENSE.txt in the project root for license information.
  * Copyright (c) 2013-2023 Valeriy Chupurnov. All rights reserved. https://xdsoft.net
  */
+.jodit-placeholder {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  padding: var(--jd-padding-default);
+  color: var(--jd-color-placeholder);
+  pointer-events: none;
+  user-select: none !important;
+}
+
+/*!
+ * Jodit Editor (https://xdsoft.net/jodit/)
+ * Released under MIT see LICENSE.txt in the project root for license information.
+ * Copyright (c) 2013-2023 Valeriy Chupurnov. All rights reserved. https://xdsoft.net
+ */
 [data-jodit_iframe_wrapper] {
   position: relative;
   display: block;
